@@ -30,12 +30,12 @@ This repo does exactly that with a minimal, transparent implementation of a **1D
 
 ## What This Repo Currently Does
 
-✅ **1. Synthetic battery aging profile**
+**1. Synthetic battery aging profile**
 
 - Simulates SOH drifting from ~1.0 → ~0.7 over a chosen number of cycles  
 - Adds Gaussian noise to mimic imperfect capacity measurements  
 
-✅ **2. Kalman Filter–based SOH estimation**
+**2. Kalman Filter–based SOH estimation**
 
 - Models SOH as a slowly-varying latent variable:
   - Process model: `x_k = x_{k-1} + w_k`  
@@ -43,7 +43,7 @@ This repo does exactly that with a minimal, transparent implementation of a **1D
 - Recovers a smooth SOH curve from noisy observations  
 - Provides an estimation framework similar to what real BMS systems use
 
-✅ **3. Visualization of results**
+**3. Visualization of results**
 
 - Plots:
   - True (simulated) SOH  
