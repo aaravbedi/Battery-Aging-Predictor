@@ -28,7 +28,7 @@ This repo does exactly that with a minimal, transparent implementation of a **1D
 
 ---
 
-## 🧠 What This Repo Currently Does
+## What This Repo Currently Does
 
 ✅ **1. Synthetic battery aging profile**
 
@@ -53,7 +53,7 @@ This repo does exactly that with a minimal, transparent implementation of a **1D
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Battery-Aging-Predictor/
